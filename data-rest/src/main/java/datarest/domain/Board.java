@@ -1,6 +1,6 @@
 package datarest.domain;
 
-import com.community.web.democommunity.domain.enums.BoardType;
+import datarest.domain.enums.BoardType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

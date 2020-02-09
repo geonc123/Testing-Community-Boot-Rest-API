@@ -1,6 +1,6 @@
 package datarest.domain;
 
-import com.community.web.democommunity.domain.enums.SocialType;
+import datarest.domain.enums.SocialType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

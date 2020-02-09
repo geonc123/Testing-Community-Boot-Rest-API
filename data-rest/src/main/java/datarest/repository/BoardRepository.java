@@ -1,9 +1,9 @@
 package datarest.repository;
 
-import com.community.web.democommunity.domain.Board;
-import com.community.web.democommunity.domain.User;
+
+import datarest.domain.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BoardRepository extends JpaRepository<Board, Long> {
-    Board findByUser(User user);
+
 }
